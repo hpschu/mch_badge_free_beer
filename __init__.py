@@ -3,13 +3,10 @@ import buttons
 import mch22
 import sys
 import time
-import sndmixer
 import audio
 APP_PATH = "/".join(__file__.split("/")[:-1])
 sys.path.append(APP_PATH)
 from rickfile import *
-
-sndmixer.begin(1, False)
 
 def reboot(pressed):
   if pressed:
