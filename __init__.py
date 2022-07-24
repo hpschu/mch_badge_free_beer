@@ -17,6 +17,7 @@ nricks = len(ricks)
 
 i = 0
 start_time = time.ticks_ms()
+
 d.drawFill(0x000000)
 channel_id = audio.play("%s/%s" % (APP_PATH, "background.mp3"), volume=130, loop=True)
 
