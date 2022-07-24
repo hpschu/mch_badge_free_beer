@@ -4,6 +4,7 @@ import mch22
 import sys
 import time
 import audio
+
 APP_PATH = "/".join(__file__.split("/")[:-1])
 sys.path.append(APP_PATH)
 from rickfile import *
